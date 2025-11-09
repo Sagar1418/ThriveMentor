@@ -57,10 +57,10 @@ ls -la
 
 ```bash
 # Start PostgreSQL container
-docker-compose up -d postgres
+docker compose up -d postgres
 
 # Wait for database to be ready (check logs)
-docker-compose logs postgres
+docker compose logs postgres
 ```
 
 #### Option B: Local PostgreSQL Installation
